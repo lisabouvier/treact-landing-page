@@ -731,3 +731,60 @@ nav {
     text-align: center;
   }
 }
+
+@media (max-width: 768px) {
+  .hero__content,
+  .quality__content,
+  .steps__content,
+  .values__content,
+  .testimonials__content,
+  .cta__row,
+  .section__header {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .section__para,
+  .hero__para {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quality__content button,
+  .values__content button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature__icon {
+    margin: 0 auto;
+  }
+
+  .step {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .step__number {
+    margin-bottom: 8px;
+  }
+
+  .cta__buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta__buttons button {
+    width: 100%;
+    max-width: 240px;
+  }
+}
